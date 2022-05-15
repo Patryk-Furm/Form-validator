@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walidator Formularza</title>
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/da4957646a.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css.css">
+</head>
+
+
+
+
+
+<body>
+
+  <div class = "info">
+    <h2>Formularz został poprawnie wysłany!</h2>
+    <button class="info_btn">Zamknij</button>
+  </div>
+
+  
+
+    <div class = "wrapper">
+      <div class = "header">
+        <h1>Zarejestruj się!</h1>
+      </div>
+
+      
+    <div class = "all-inputs">
+
+      <div class="form-box">
+        <label for="name_input">Nazwa użytkownika:</label>
+        <input class = "name_input"  type="text" placeholder="Wpisz nazwę użytkownika...">
+        <p class = "error-text">Wpisz poprawną nazwe użytkownika!</p>
+      </div>
+
+      <div class="form-box">
+        <label for="password_input">Hasło:</label>
+        <input class = "password_input" type="password" minlength="8" placeholder="Wpisz hasło...">
+        <i class = "closed_eye1 fas fa-eye-slash"></i>
+        <i class = "opened_eye1 fas fa-eye "></i>
+        <p class = "error-text">Wpisz poprawne hasło!</p>
+      </div>
+
+      <div class="form-box">
+        <label for="repeat_password_input">Powtórz hasło:</label>
+        <input class = "repeat_password_input" type="password" minlength="8" placeholder="Powtórz hasło...">
+        <i class = "closed_eye2 fas fa-eye-slash"></i>
+        <i class = "opened_eye2 fas fa-eye "></i>
+        <p class = "error-text">Powtórz poprawnie hasło!</p>
+        </div>
+
+      <div class="form-box">
+        <label for="e-mail_input">Adres e-mail:</label>
+        <input class = "e-mail_input" type="email"  placeholder="Wpisz adres e-mail...">
+        <p class = "error-text">Wpisz poprawny adres e-mail!</p>
+      </div>
+
+      </div>
+
+      <div class="buttons">
+        <button class="btn1">Wyślij</button> <button class="btn2">Wyczyść</button>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>

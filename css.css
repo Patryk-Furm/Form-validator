@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 124, 255);
+    min-height: 100vh;
+}
+
+h1{
+    margin-left: 1.8rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+h2{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 2.7rem;
+    margin-top: 1em;
+    color: rgb(140, 140, 140);
+}
+
+i{
+    position: absolute;
+    margin-left: -1.5rem;
+    margin-top: 0.6rem;
+}
+
+.info{
+        display: flex;
+        position:absolute;
+        margin-bottom: 49rem;
+        margin-top: 3rem;
+        background-color: #fff;
+        padding: 3rem;
+        border-radius: 15px;
+        box-shadow: 0 0 15px #000;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        width: 30%;
+        top: -200px;
+        transition: top .5s; 
+        transform: translate(1%, -50%);  
+    }
+
+.info_btn{
+        margin-left: 11rem;
+        margin-top: 5rem;
+        border-radius: 5px;
+        border: none;
+        color:#fff;
+        background-color: rgb(22, 124, 255);
+        width: 22%;
+        padding: 0.7em 0;
+    }
+
+    .show_popup{
+        top: 100px;
+        
+    }
+
+.wrapper{
+    background-color: #fff;
+    box-shadow: 0 0 15px #000;
+    border-radius: 20px;
+    margin-top: 15rem;
+    width: 21%;
+    
+}
+
+.header{
+    margin: 3rem;
+}
+
+.all-inputs{
+    margin: 0rem 3rem;
+}
+
+.name_input{
+    padding: 0.5rem;
+    width: 40ch;
+    margin-bottom: 0.7rem;
+    border-radius: 5px #fff;
+}
+
+.password_input{
+    padding: 0.5rem;
+    width: 40ch;
+    margin-bottom: 0.7rem;
+    border-radius: 5px #fff;
+}
+
+.repeat_password_input{
+    padding: 0.5rem;
+    width: 40ch;
+    margin-bottom: 0.7rem;
+    border-radius: 5px #fff;
+}
+
+.e-mail_input{
+    padding: 0.5rem;
+    width: 40ch;
+    margin-bottom: 0.7rem;
+    border-radius: 5px #fff;
+    
+}
+
+.buttons{
+    padding: 0 0 1rem 8rem;  
+}
+
+.btn1{
+    padding: 0.7em 0;
+    width: 33.5%;
+    margin-right:  1rem;
+    margin-left: 1rem;
+    background-color: rgb(22, 124, 255);
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+}
+
+.btn2{
+    padding: 0.7em 0;
+    width: 33.5%;
+    background-color: rgb(22, 124, 255);
+    border-radius: 5px;
+    border: none;
+    color: #fff
+}
+
+.btn1:hover{
+    background-color: grey;
+    color: black;
+}
+
+.btn2:hover{
+    background-color: grey;
+    color: black;
+}
+
+.form-box {
+    margin-bottom: 15px;
+}
+
+.form-box label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.form-box.error input {
+    border: 1px solid rgb(0, 137, 250);
+    background-color: rgba(0, 137, 250, .1);
+}
+
+.form-box .error-text {
+    visibility: hidden;
+    margin: 5px 0 0 10px;
+    font-size: 14px;
+    color: rgb(0, 137, 250);
+}
+
+.form-box.error .error-text {
+    visibility: visible;
+}
+
+
+
+
+.closed_eye1{
+    display: block;
+    margin-left: 17rem;
+    margin-top: -2.4rem;
+}
+
+.opened_eye1{
+    margin-left: 17rem;
+    margin-top: -2.4rem;
+    display: none;
+}
+
+.closed_eye2{
+    display: block;
+    margin-left: 17rem;
+    margin-top: -2.4rem;
+}
+
+.opened_eye2{
+    display: none;
+    margin-left: 17rem;
+    margin-top: -2.4rem;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+
